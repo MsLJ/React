@@ -1,0 +1,43 @@
+@import "./d62.scss";
+
+//scss끌어다쓰는건 위에 임포트하고 include하면 끝
+//e5안에있는 css적용시킬려면 그냥 e5안에있는 div color설정
+.e5{
+    @include fontBaedal();
+    div{
+        color:aqua;
+    }
+}
+$sd:1px 1px 1px green;
+$s : 200px;
+
+@mixin myDesign(){
+    width:150px;
+    height:150px;
+    background-color: gray;
+}
+@mixin myDesign2($v){
+    $ss:150px*$v;
+    height:$ss;
+    width: $ss;
+   
+}
+
+.e3{
+    @include myDesign2(1);
+}
+.e4{
+    @include myDesign2(2);
+}
+
+.e{
+    text-shadow: $sd;
+    box-shadow:$sd;
+    width:$s;
+    height:$s;
+}
+.e2{
+    color:red;
+    font-weight: 900;
+    @include myDesign();
+}

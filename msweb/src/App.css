@@ -1,0 +1,22 @@
+#siteTitle{
+  position: fixed;
+  width: 100%;
+}
+#siteTitle img{
+  height: 50px;
+width: 100px;
+}
+#siteMenu{
+  height: 40px;
+  border-top: rgb(241, 120, 146) solid 3px;
+  border-bottom: rgb(241, 120, 146) solid 3px;
+}
+#siteMenu2{
+  width: 1200px;
+}
+#siteContent{
+margin-left: auto;
+margin-right: auto;
+width: 1200px;
+padding-top: 170px;
+}

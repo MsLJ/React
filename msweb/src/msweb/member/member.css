@@ -1,0 +1,38 @@
+#loginTbl{
+    width: 100%;
+}
+#loginTbl input{
+    border: rgb(241, 120, 146) solid 2px;
+    height: 25px;
+    font-family: "배달의민족 주아";
+    margin-right: 10px;
+    width: 170px;
+    text-align: center;
+
+}
+
+#loginTbl button{
+    border: none;
+    background-color: transparent;
+    color:rgb(241, 120, 146);
+    font-family: "배달의민족 주아";
+    font-weight: 900;
+}
+
+#joinTbl{
+    width: 40%;
+    background-color: rgb(224, 66, 103);
+}
+#joinTbl  input{
+    height: 40px;
+    width:90%;
+}
+#joinTbl button{
+    width: 90%;
+    border: none;
+    background-color: transparent;
+    color:rgb(241, 120, 146);
+    font-family: "배달의민족 주아";
+    font-size: 24pt;
+    font-weight: 900;
+}

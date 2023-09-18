@@ -1,0 +1,25 @@
+/* @font-face {
+  font-family: "배달의민족 주아";
+  font-src:"폰트 경로"
+} */
+
+body {
+  font-family: "배달의민족 주아";
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+
+input,
+button {
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
